@@ -15,5 +15,11 @@ public class Variables {
         System.out.println("Height: " + height);
         System.out.println("Is Java Fun?: " + isJavaFun);
         System.out.println("Coding Skills: " + codingSKills);
+        // looping vars
+        byte count = 126;
+        count += 1;
+        System.out.println("Byte Count: " + count);
+        count += 1;
+        System.out.println("Byte Count: " + count);
     }
 }
