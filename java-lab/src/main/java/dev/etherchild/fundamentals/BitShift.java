@@ -11,5 +11,10 @@ public class BitShift {
         // Right shift
         number >>= 1; // Shift right by 1 (divide by 2)
         System.out.println("After right shift by 1: " + number + " (Binary: " + Integer.toBinaryString(number) + ")");
+        // Unsigned right shift
+        int XORnumber = ~number; // Binary: 1111 1000 (two's complement)
+        System.out.println("XOR number: " + XORnumber + " (Binary: " + Integer.toBinaryString(XORnumber) + ")");
+        number >>>= 1; // Shift right by 1 (unsigned)
+        System.out.println("After unsigned right shift by 1: " + number + " (Binary: " + Integer.toBinaryString(number) + ")");
     }
 }
