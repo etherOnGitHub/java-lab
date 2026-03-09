@@ -3,6 +3,7 @@ package dev.etherchild.fundamentals;
 public class Variables {
     
     public static void run() {
+        System.out.println("=== Primitives and Variables ===");
         // Declare vars
         String name = "etherchild";
         byte age = 27;
@@ -17,9 +18,9 @@ public class Variables {
         System.out.println("Coding Skills: " + codingSKills);
         // looping vars
         byte count = 126;
-        count += 1;
+        count++;
         System.out.println("Byte Count: " + count);
-        count += 1;
+        count++;
         System.out.println("Byte Count: " + count);
     }
 }
