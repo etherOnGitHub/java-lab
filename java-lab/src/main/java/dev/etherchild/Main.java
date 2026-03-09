@@ -1,6 +1,7 @@
 package dev.etherchild;
 
 import dev.etherchild.fundamentals.*;
+import dev.etherchild.algorithms.*;
 
 
 public class Main {
@@ -10,5 +11,9 @@ public class Main {
         Variables.run();
         Casting.run();
         BitShift.run();
+        OperatorPrecedence.run();
+
+        // Run algorithms
+        FISQRT.run();
     }
 }
