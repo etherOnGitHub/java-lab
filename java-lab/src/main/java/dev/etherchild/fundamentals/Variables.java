@@ -16,6 +16,7 @@ public class Variables {
         System.out.println("Height: " + height);
         System.out.println("Is Java Fun?: " + isJavaFun);
         System.out.println("Coding Skills: " + codingSKills);
+        System.out.println("=== Two is indeed a complement ===");
         // looping vars
         byte count = 126;
         count++;
